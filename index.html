@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SOS</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="./css/animate.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="./css/sos.css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="header-nav">
+				<div class="header-nav__icon">
+					<img src="./img/header_logo.png" alt="">
+				</div>
+				<div class="header-nav__menu">
+					<ul class="header-nav-list">
+						<li><a href="#social-battle">about</a></li>
+						<li><a href="#features">Game features</a></li>
+						<li><a href="#system">System requirements</a></li>
+						<li><a href="#quotes">quotes</a></li>
+						<li><a href="#subscribe">Subscribe</a></li>
+					</ul>
+				</div>
+				<div class="header-nav__lastitems">
+					<div class="header-nav__lang">
+						<a href="#">ENG</a>
+						<svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M1.94206 0.587086C1.65145 0.332125 1.20917 0.361024 0.954213 0.651633C0.699252 0.942243 0.72815 1.38451 1.01876 1.63948L1.94206 0.587086ZM5.12825 4.31366L4.66661 4.83985L5.1283 5.24491L5.58995 4.83981L5.12825 4.31366ZM9.23715 1.63944C9.52774 1.38445 9.5566 0.942174 9.30161 0.651587C9.04662 0.361 8.60435 0.33214 8.31376 0.587127L9.23715 1.63944ZM1.01876 1.63948L4.66661 4.83985L5.5899 3.78746L1.94206 0.587086L1.01876 1.63948ZM5.58995 4.83981L9.23715 1.63944L8.31376 0.587127L4.66656 3.7875L5.58995 4.83981Z"
+								fill="white" />
+						</svg>
+						<div class="header-nav__another-lang">
+							<ul>
+								<li><a href="#">RUS</a></li>
+								<li><a href="#">FRA</a></li>
+								<li><a href="#">DEU</a></li>
+							</ul>
+						</div>
+					</div>
+					<svg width="10" height="40" viewBox="0 0 10 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g opacity="0.5" filter="url(#filter0_d)">
+							<path d="M4.96869 1.14941L4.96869 31.1494" stroke="white" stroke-linecap="round" />
+						</g>
+						<defs>
+							<filter id="filter0_d" x="0.468689" y="0.649414" width="9" height="39" filterUnits="userSpaceOnUse"
+								color-interpolation-filters="sRGB">
+								<feFlood flood-opacity="0" result="BackgroundImageFix" />
+								<feColorMatrix in="SourceAlpha" type="matrix"
+									values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+								<feOffset dy="4" />
+								<feGaussianBlur stdDeviation="2" />
+								<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+								<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+								<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+							</filter>
+						</defs>
+					</svg>
+					<a class="header-nav__xbox" href="https://www.xbox.com/ru-RU/">
+						<svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M10.5512 3.15848C12.1355 3.77969 13.6669 4.60017 15.1103 5.60231C15.2746 5.71367 15.4623 5.77227 15.6501 5.77227C15.8379 5.77227 16.0256 5.71367 16.1899 5.60231C17.6333 4.60017 19.1647 3.77383 20.749 3.15262C21.1069 3.01196 21.3474 2.66033 21.3416 2.27354C21.3416 1.88674 21.101 1.54097 20.7372 1.40618C17.5688 0.204775 13.7314 0.204775 10.5688 1.40618C10.2109 1.54097 9.96448 1.89261 9.96448 2.27354C9.96448 2.65447 10.1874 3.01783 10.5512 3.15848Z"
+								fill="#FFB548" />
+							<path
+								d="M24.1586 3.16371C23.8593 2.95859 23.4779 2.94101 23.1552 3.12268C21.4008 4.13069 19.7051 5.28521 18.1033 6.55695C17.892 6.7269 17.763 6.9789 17.7512 7.24849C17.7395 7.51807 17.8451 7.78179 18.0387 7.96933C21.3597 11.1282 25.9599 20.8156 27.016 25.2696C24.7277 21.4016 19.623 12.3003 16.2843 9.18832C15.9264 8.85427 15.3631 8.85427 15.0052 9.18832C11.6607 12.3003 6.57358 21.4075 4.28524 25.2813C5.34139 20.8273 9.9298 11.1282 13.2508 7.96933C13.4503 7.78179 13.5559 7.51807 13.5442 7.24849C13.5325 6.9789 13.4034 6.7269 13.1921 6.55695C11.5903 5.28521 9.88873 4.13069 8.14021 3.12268C7.82923 2.94101 7.4361 2.95859 7.13686 3.16371C3.05893 5.97089 0.623901 10.5831 0.623901 15.506C0.623901 19.1043 1.92063 22.5737 4.28524 25.2813C7.11339 28.5984 11.25 30.5089 15.6448 30.5089C20.0396 30.5089 24.182 28.6042 27.016 25.2754C29.3689 22.5796 30.6656 19.1102 30.6656 15.506C30.6656 10.5831 28.2306 5.97089 24.1586 3.16371Z"
+								fill="#FFB548" />
+						</svg>
+					</a>
+					<a class="header-nav__steam" href="https://steamcommunity.com/groups/PCGameBenchmark">
+						<svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd"
+								d="M15.7745 30.5088C24.0936 30.5088 30.8375 23.7931 30.8375 15.5088C30.8375 7.22452 24.0936 0.508789 15.7745 0.508789C7.45551 0.508789 0.711609 7.22452 0.711609 15.5088C0.711609 17.0368 0.941045 18.5115 1.36748 19.9005C1.4763 19.92 1.65224 19.9646 1.9086 20.0394L1.50828 13.7668C1.50828 13.6518 1.70304 13.5966 1.88147 13.5459C1.9794 13.5181 2.07241 13.4917 2.12561 13.4576C2.27088 13.3661 5.26252 14.4539 5.42233 14.5261L9.24794 16.2494C10.2358 15.6284 11.4174 15.3781 12.5796 15.5466L16.0566 11.3251C16.1001 7.95563 18.8604 5.24079 22.255 5.23597C25.4269 5.26967 28.0564 7.67644 28.3566 10.8101C28.6762 14.1988 26.1775 17.2024 22.7683 17.525L16.9766 21.6405C16.6231 23.4456 15.3253 24.9234 13.5723 25.5106C10.8847 26.4156 7.96466 24.9811 7.05911 22.3048L5.04461 21.6405C4.89525 21.5933 2.1538 20.4576 1.41123 20.0405C3.34045 26.1098 9.04162 30.5088 15.7745 30.5088ZM25.3545 11.3972C25.3545 13.0986 23.9669 14.4779 22.2552 14.4779C20.5435 14.4779 19.1559 13.0986 19.1559 11.3972C19.1559 9.69581 20.5435 8.31655 22.2552 8.31655C23.9669 8.31655 25.3545 9.69581 25.3545 11.3972ZM24.3235 11.3972C24.3235 12.5324 23.3977 13.4526 22.2557 13.4526C21.1137 13.4526 20.1879 12.5324 20.1879 11.3972C20.1879 10.2621 21.1137 9.34186 22.2557 9.34186C23.3977 9.34186 24.3235 10.2621 24.3235 11.3972ZM10.5804 23.4119C10.9968 23.6141 11.4568 23.72 11.9217 23.72C12.2752 23.72 12.619 23.6622 12.958 23.5515C13.7376 23.282 14.372 22.7188 14.7303 21.9823C15.4761 20.4468 14.8272 18.608 13.2873 17.8667C13.0258 17.7416 12.7207 17.8475 12.5948 18.1026C12.4689 18.3625 12.5754 18.6658 12.8321 18.7909C12.866 18.8054 12.8999 18.8198 12.9338 18.8391C13.9507 19.3589 14.3429 20.596 13.82 21.6068C13.297 22.6177 12.0476 23.0076 11.0356 22.4877C10.7741 22.3626 10.469 22.4685 10.3431 22.7236C10.2172 22.9835 10.3237 23.2868 10.5804 23.4119Z"
+								fill="#FFB548" />
+						</svg>
+					</a>
+				</div>
+				<div class="burger__btn">
+					<span></span>
+				</div>
+			</div>
+
+		<div class="header__title">
+			<div class="header__content wow animate__animated animate__heartBeat animate__slow animate__infinite">
+				<h2>SURVIVE AT ALL COSTS</h2>
+				<p>Experience new social battle royale game</p>
+				<button><a href="https://store.steampowered.com/app/619080/SOS/">Buy Now on Steam \ $14.99</a></button>
+			</div>
+		</div>
+
+			<div class="header__scrollDown">
+				<a href="#main">The story</a>
+				<a href="#main">
+					<svg width="23" height="12" viewBox="0 0 23 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M21.5786 1.83374H1.32422L11.338 10.0029L21.5786 1.83374Z" stroke="white" stroke-width="2"
+							stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+				</a>
+			</div>
+		</div>
+	</header>
+	<main id="main">
+		<section id="social-battle">
+			<div class="container">
+				<div class="social-battle__content wow animate__animated animate__fadeInLeftBig animate__delay-1s">
+					<span>What is SOS?</span>
+					<h2 class="wow animate__animated animate__pulse animate__slow animate__infinite">social battle royale game</h2>
+					<div class="social-battle__text">
+						<p>Each round, you and 15 other contestants compete to
+							escape a deadly island filled with monsters. The trick is: three people can survive. Will you run
+							solo or form friendships with others to escape?<br><br>
+							Making the right decisions could be the
+							difference between life and death.</p>
+					</div>
+				</div>
+				<div class="social-battle__slideBlock  wow animate__animated animate__fadeInRightBig animate__delay-1s">
+					<div class="swiper-container social-battle__slideImg">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="./img/social-battle_slide_1.png" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="./img/social-battle_slide_2.png" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="./img/social-battle_slide_3.png" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="./img/social-battle_slide_1.png" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="./img/social-battle_slide_2.png" alt="">
+							</div>
+						</div>
+						<div class="swiper-pagination"></div>
+					</div>
+					<div class="social-battle__nextBtn">
+						<svg width="18" height="38" viewBox="0 0 18 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1.82153 1.9564L1.82153 36.0298L15.5642 19.1839L1.82153 1.9564Z" stroke="white"
+								stroke-width="3.36454" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="features">
+			<div class="container">
+				<div class="features__block">
+					<div class="features__content wow animate__animated animate__fadeInBottomLeft">
+						<p>What’s so special?</p>
+						<h2 class="wow animate__animated animate__rubberBand animate__slow animate__infinite">features</h2>
+						<ul class="features__list">
+							<li>
+								SURVIVE AT ALL COSTS
+								<p>
+									You have 30 minutes to find a relic, signal for extraction, and grab
+									one of three spots on the rescue chopper.
+								</p>
+							</li>
+							<li>CREATE ALLIES AND ENEMIES</li>
+							<li>IMPRESS THE AUDIENCE</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="system">
+			<div class="container">
+				<p class="wow animate__animated animate__fadeInDownBig">Can My Computer Run this game?</p>
+				<h2 class="wow animate__animated animate__zoomIn animate__slower animate__infinite">system requirements</h2>
+
+				<div class="system__table wow animate__animated animate__lightSpeedInLeft">
+					<div class="system__table-items">
+						<div class="system-table__title">OS:</div>
+						<div class="system-table__text">Windows 7 64-bit only
+							(No OSX support at this time)
+						</div>
+					</div>
+					<div class="system__table-items">
+						<div class="system-table__title">PROCESSOR:</div>
+						<div class="system-table__text">
+							Intel Core 2 Duo @ 2.4 GHZ or AMD Athlon X2 @ 2.8 GHZ
+						</div>
+					</div>
+					<div class="system__table-items">
+						<div class="system-table__title">MEMORY:</div>
+						<div class="system-table__text">
+							8 GB RAM
+						</div>
+					</div>
+					<div class="system__table-items">
+						<div class="system-table__title">storage:</div>
+						<div class="system-table__text">
+							8 GB available space
+						</div>
+					</div>
+					<div class="system__table-items">
+						<div class="system-table__title">GRAPHICS:</div>
+						<div class="system-table__text">
+							NVIDIA GeForce GTX 660 2GB or
+							AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="quotes">
+			<div class="container">
+				<div class="quotes__left">
+					<span>What people think?</span>
+					<h2 class="wow animate__animated animate__rubberBand animate__slow animate__infinite">Press quotes</h2>
+					<p>Our goal is to create a product and service that you’re satisfied with and use it every day. This is
+						why we’re constantly working on our services to make it better every day and really listen to what our
+						users has to say.</p>
+					<button class="quotes__btn">Read more testimonials</button>
+				</div>
+				<div class="quotes__right">
+					<div class="quotes__right-item wow animate__animated animate__rotateInDownLeft animate__delay-1s">
+						<div class="quotes__right-title">
+							<div class="quotes__right-img">
+								<img src="./img/quotes_1.png" alt="">
+							</div>
+							<div class="quotes__right-name">
+								<h2>Evan Lahti</h2>
+								<p>PC Gamer</p>
+							</div>
+							<div class="quotes__right-icon">
+								<svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path opacity="0.3"
+										d="M18.3979 2.41449C17.723 2.70013 17.007 2.88765 16.274 2.97084C17.0364 2.53297 17.6229 1.84099 17.8989 1.01526C17.173 1.42694 16.3788 1.71699 15.5507 1.87286C14.8517 1.15947 13.8743 0.755389 12.8517 0.757085C10.8103 0.757085 9.15349 2.33909 9.15349 4.29061C9.15349 4.5679 9.18615 4.83816 9.25009 5.09623C6.17627 4.94862 3.45203 3.54236 1.62775 1.404C1.30922 1.92529 1.12752 2.53297 1.12752 3.18076C1.12752 4.40623 1.78012 5.48805 2.77218 6.12188C2.18482 6.10468 1.61034 5.95309 1.09693 5.67983V5.7249C1.09693 7.43659 2.37177 8.86495 4.06266 9.19027C3.51808 9.3312 2.9471 9.35187 2.39293 9.25072C2.86372 10.6549 4.22986 11.6764 5.84738 11.7061C4.58198 12.6524 2.98768 13.2184 1.25471 13.2184C0.960031 13.2181 0.665618 13.2015 0.372925 13.1689C2.00931 14.1713 3.95353 14.7571 6.04172 14.7571C12.8437 14.7571 16.5626 9.37118 16.5626 4.70056C16.5626 4.54779 16.5626 4.39502 16.5511 4.24335C17.2748 3.74295 17.8997 3.12372 18.3968 2.41449H18.3979Z"
+										fill="white" />
+								</svg>
+							</div>
+						</div>
+						<div class="quotes__right-text">
+							“One of my gaming highlights of the year.”
+							<div class="date">October 18, 2018</div>
+						</div>
+					</div>
+					<div class="quotes__right-item wow animate__animated animate__fadeInRight animate__delay-1s">
+						<div class="quotes__right-title">
+							<div class="quotes__right-img">
+								<img src="./img/quotes_1.png" alt="">
+							</div>
+							<div class="quotes__right-name">
+								<h2>Jada Griffin </h2>
+								<p>Nerdreactor</p>
+							</div>
+							<div class="quotes__right-icon">
+								<svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path opacity="0.3"
+										d="M18.3979 2.41449C17.723 2.70013 17.007 2.88765 16.274 2.97084C17.0364 2.53297 17.6229 1.84099 17.8989 1.01526C17.173 1.42694 16.3788 1.71699 15.5507 1.87286C14.8517 1.15947 13.8743 0.755389 12.8517 0.757085C10.8103 0.757085 9.15349 2.33909 9.15349 4.29061C9.15349 4.5679 9.18615 4.83816 9.25009 5.09623C6.17627 4.94862 3.45203 3.54236 1.62775 1.404C1.30922 1.92529 1.12752 2.53297 1.12752 3.18076C1.12752 4.40623 1.78012 5.48805 2.77218 6.12188C2.18482 6.10468 1.61034 5.95309 1.09693 5.67983V5.7249C1.09693 7.43659 2.37177 8.86495 4.06266 9.19027C3.51808 9.3312 2.9471 9.35187 2.39293 9.25072C2.86372 10.6549 4.22986 11.6764 5.84738 11.7061C4.58198 12.6524 2.98768 13.2184 1.25471 13.2184C0.960031 13.2181 0.665618 13.2015 0.372925 13.1689C2.00931 14.1713 3.95353 14.7571 6.04172 14.7571C12.8437 14.7571 16.5626 9.37118 16.5626 4.70056C16.5626 4.54779 16.5626 4.39502 16.5511 4.24335C17.2748 3.74295 17.8997 3.12372 18.3968 2.41449H18.3979Z"
+										fill="white" />
+								</svg>
+							</div>
+						</div>
+						<div class="quotes__right-text">
+							“The next big thing in the world of streaming and survival games.”
+							<div class="date">December 21, 2018</div>
+						</div>
+					</div>
+					<div class="quotes__right-item wow animate__animated animate__rotateInUpLeft animate__delay-1s">
+						<div class="quotes__right-title">
+							<div class="quotes__right-img">
+								<img src="./img/quotes_1.png" alt="">
+							</div>
+							<div class="quotes__right-name">
+								<h2>Aaron Williams </h2>
+								<p>Uproxx</p>
+							</div>
+							<div class="quotes__right-icon">
+								<svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path opacity="0.3"
+										d="M18.3979 2.41449C17.723 2.70013 17.007 2.88765 16.274 2.97084C17.0364 2.53297 17.6229 1.84099 17.8989 1.01526C17.173 1.42694 16.3788 1.71699 15.5507 1.87286C14.8517 1.15947 13.8743 0.755389 12.8517 0.757085C10.8103 0.757085 9.15349 2.33909 9.15349 4.29061C9.15349 4.5679 9.18615 4.83816 9.25009 5.09623C6.17627 4.94862 3.45203 3.54236 1.62775 1.404C1.30922 1.92529 1.12752 2.53297 1.12752 3.18076C1.12752 4.40623 1.78012 5.48805 2.77218 6.12188C2.18482 6.10468 1.61034 5.95309 1.09693 5.67983V5.7249C1.09693 7.43659 2.37177 8.86495 4.06266 9.19027C3.51808 9.3312 2.9471 9.35187 2.39293 9.25072C2.86372 10.6549 4.22986 11.6764 5.84738 11.7061C4.58198 12.6524 2.98768 13.2184 1.25471 13.2184C0.960031 13.2181 0.665618 13.2015 0.372925 13.1689C2.00931 14.1713 3.95353 14.7571 6.04172 14.7571C12.8437 14.7571 16.5626 9.37118 16.5626 4.70056C16.5626 4.54779 16.5626 4.39502 16.5511 4.24335C17.2748 3.74295 17.8997 3.12372 18.3968 2.41449H18.3979Z"
+										fill="white" />
+								</svg>
+							</div>
+						</div>
+						<div class="quotes__right-text">
+							“Snoop Dogg Playing The Wildly Entertaining ‘SOS’ Is Ridiculous.”
+							<div class="date">December 24, 2018</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="subscribe">
+			<div class="container">
+				<div class="subscribe__left">
+					<div class="subscribe__img">
+						<img src="./img/subscribe_img.png" alt="">
+					</div>
+				</div>
+				<div class="subscribe__right">
+					<span>Want to stay in touch?</span>
+					<h2 class="wow animate__animated animate__rubberBand animate__slower animate__infinite">newsletter SUBSCRIBE </h2>
+					<p class="wow animate__animated animate__lightSpeedInLeft">In order to start receiving our news, all you have to do is enter your email address. Everything else
+						will be taken care of by us. We will send you emails containing information about game. We don’t spam.
+					</p>
+					<form class="subscribe__form wow animate__animated animate__bounceInUp" action="">
+						<input type="email" placeholder="Your email address">
+						<button>Subscribe now</button>
+					</form>
+				</div>
+			</div>
+		</section>
+
+	</main>
+	<footer>
+		<section class="footer">
+			<div class="container">
+				<div class="footer__content">
+				<div class="footer__logo">
+					<img src="./img/footer__logo.png" alt="">
+				</div>
+				<div class="footer__menu">
+					<ul>
+						<li><a href="#social-battle">about</a></li>
+						<li><a href="#features">Game features</a></li>
+						<li><a href="#system">System requirements</a></li>
+						<li><a href="#quotes">quotes</a></li>
+						<li><a href="#subscribe">Subscribe</a></li>
+					</ul>
+				</div>
+				<div class="footer__icons">
+					<div class="footer__icons-facebook">
+						<a href="https://www.facebook.com/playsosgame/">
+							<svg width="10" height="20" viewBox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M6.65382 19.1728H2.56282V9.67884H0.517822V6.40584H2.56282V4.44184C2.56282 1.77284 3.71782 0.183838 6.99582 0.183838H9.72582V3.45684H8.02082C6.74282 3.45684 6.65882 3.91484 6.65882 4.76884L6.65382 6.40584H9.74582L9.38382 9.67884H6.65382V19.1728Z" fill="white"/>
+								</svg>
+						</a>							
+					</div>
+					<div class="footer__icons-twitter">
+						<a href="https://twitter.com/playsosgame">
+							<svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M21.2138 2.42991C20.4408 2.75191 19.6098 2.96691 18.7388 3.06491C19.6288 2.56491 20.3118 1.77291 20.6338 0.830912C19.7998 1.29291 18.8778 1.62891 17.8958 1.81091C17.1108 1.02491 15.9898 0.534912 14.7508 0.534912C12.3708 0.534912 10.4398 2.34391 10.4398 4.57391C10.4398 4.89091 10.4778 5.19991 10.5518 5.49491C6.96981 5.32591 3.79381 3.71791 1.66781 1.27491C1.29681 1.87191 1.08481 2.56491 1.08481 3.30591C1.08481 4.70591 1.84581 5.94391 3.00181 6.66791C2.29581 6.64591 1.63181 6.46491 1.04981 6.16191C1.04981 6.17991 1.04981 6.19491 1.04981 6.21391C1.04981 8.17091 2.53481 9.80291 4.50681 10.1739C4.14581 10.2659 3.76381 10.3139 3.37181 10.3139C3.09381 10.3139 2.82381 10.2899 2.56081 10.2439C3.10881 11.8469 4.70081 13.0159 6.58681 13.0489C5.11181 14.1319 3.25381 14.7769 1.23381 14.7769C0.885811 14.7769 0.542811 14.7579 0.205811 14.7209C2.11281 15.8659 4.37881 16.5359 6.81281 16.5359C14.7408 16.5359 19.0758 10.3799 19.0758 5.04291C19.0758 4.86691 19.0708 4.69391 19.0628 4.51991C19.9048 3.94991 20.6358 3.23891 21.2138 2.42991Z" fill="white"/>
+							</svg>
+						</a>						
+					</div>
+					<div class="footer__icons-youtube">
+						<a href="https://www.youtube.com/watch?v=peBgUMT26jM&t=63s">
+							<svg width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M20.61 0.183838H5.98961C3.12627 0.183838 0.799805 2.5511 0.799805 5.46465V12.8975C0.799805 15.8166 3.12627 18.1783 5.98961 18.1783H20.6046C23.4733 18.1783 25.7944 15.8111 25.7944 12.8975V5.46465C25.7998 2.5511 23.4733 0.183838 20.61 0.183838ZM17.0959 9.54803L10.2575 12.8644C10.0731 12.9527 9.86705 12.8203 9.86705 12.6106V5.76814C9.86705 5.55845 10.084 5.42602 10.2629 5.51983L17.1013 9.04589C17.3074 9.15073 17.302 9.4487 17.0959 9.54803Z" fill="#FF1313"/>
+								</svg>	
+						</a>						
+					</div>
+					<div class="footer__icons-twitch">
+						<a href="https://www.twitch.tv/directory/game/SOS/videos/all">
+							<svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M19.9602 13.6255V9.55405V0.68042H2.93894L0.811279 2.97712V15.087H6.13043V18.8453H8.47085L11.024 16.131H17.407L19.9602 13.6255ZM7.40694 13.4168H4.00268C3.76864 13.4168 3.57715 13.2289 3.57715 12.9992V2.76841C3.57715 2.53874 3.76864 2.35083 4.00268 2.35083H17.6197C17.8537 2.35083 18.0452 2.53874 18.0452 2.76841V10.7025C18.0452 10.8173 18.0027 10.9217 17.9229 11L15.5825 13.2967C15.5027 13.375 15.391 13.4168 15.2793 13.4168H11.3697L8.07183 15.6404C8.00268 15.6874 7.91757 15.7135 7.83247 15.7135C7.76332 15.7135 7.69949 15.6978 7.63566 15.6665C7.49204 15.5934 7.40694 15.4525 7.40694 15.2959V13.4168Z" fill="white"/>
+								</svg>	
+						</a>						
+					</div>
+				</div>
+
+				</div>
+
+				<div class="footer__supcontent">
+					<div class="footer__supcontent-left"> © 2021 Outpost Games, Inc. All Rights Reserved</div>
+					<div class="footer__supcontent-right">
+						<a href="">Privacy Policy</a> |
+						<a href="">Terms of Services</a> |
+						<a href="">Code of Conduct</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</footer>
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+		</script>
+
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>
+
+<!-- <video src="../video/videoplayback_Trim.mp4" autoplay muted loop></video>
+video {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+} -->
+<!-- wow animate__animated animate__rotateInDownLeft
+wow animate__animated animate__fadeInRight
+wow animate__animated animate__rotateInUpLeft -->
